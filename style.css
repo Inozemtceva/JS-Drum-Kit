@@ -1,0 +1,79 @@
+html {
+  font-size: 12px;
+  background: url('./background2.jpg') bottom center;
+  background-size: cover;
+  height: 100%;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#header h1 {
+  color: whitesmoke;
+  font-size: 3em;
+  font-weight: 900;
+  display: inline-block;
+  position: relative; 
+  text-align: center;
+  top: 2em;
+  vertical-align: middle;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid salmon;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 3rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+
+#footer {
+
+	color: aliceblue;
+  font-size: 2em;
+  cursor: default;
+  left: 0;
+  line-height: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
